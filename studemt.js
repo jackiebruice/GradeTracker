@@ -79,8 +79,8 @@ if (student.grade === 'Fail') {
         <td>${student.finalmark.toFixed(2)}</td>
         <td>${student.grade}</td>
         <td>
-        <button class="edit-btn" onclick="editStudent(${index})">Edit</button>
-        <button class="delete-btn" onclick="deleteStudent(${index})">Delete</button>
+       <button class="edit-btn"><i class="fas fa-edit"></i></button>
+       <button class="delete-btn"><i class="fas fa-trash"></i></button>
         </td>
 
     `;
